@@ -1,0 +1,39 @@
+{
+  "name": "frontlash",
+  "version": "1.0.0",
+  "author": "Zakir Sajib <zakirsajib@gmail.com>",
+  "scripts": {
+    "autoprefixer": "postcss -u autoprefixer -r static/dist/css/*",
+    "scss": "node-sass --output-style compressed -o static/dist/css static/src/scss",
+    "lint": "eslint static/src/js",
+    "uglify": "mkdir -p static/dist/js && uglifyjs node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js static/src/js/*.js js/*.js -m -o static/dist/js/app.js && uglifyjs node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js static/src/js/*.js js/*.js -m -c -o static/dist/js/app.min.js",
+    "imagemin": "imagemin static/src/img static/dist/img -p",
+    "build:css": "npm run scss && npm run autoprefixer",
+    "build:js": "npm run uglify",
+    "build:images": "npm run imagemin",
+    "build:all": "npm run build:css && npm run build:js && npm run build:images",
+    "watch:css": "onchange 'static/src/scss/*.scss' -- npm run build:css",
+    "watch:js": "onchange 'static/src/js/*.js' -- npm run build:js",
+    "watch:all": "parallelshell 'npm run watch:css' 'npm run watch:js'",
+    "postinstall": "mkdir -p static/dist/js && mkdir -p static/dist/css && mkdir -p static/dist/img && mkdir -p static/src/scss && mkdir -p static/src/js && mkdir -p static/src/img && touch static/src/scss/main.scss && touch static/src/js/app.js && npm run watch:all"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-standard": "latest",
+    "eslint-plugin-standard": "latest",
+    "imagemin-cli": "latest",
+    "node-sass": "latest",
+    "onchange": "latest",
+    "parallelshell": "latest",
+    "postcss-cli": "latest",
+    "touch": "latest",
+    "uglify-js": "latest",
+    "bootstrap-sass": "latest",
+    "font-awesome-sass": "latest"
+  },
+  "dependencies": {
+    "bootstrap-sass": "latest",
+    "font-awesome-sass": "latest"
+  }
+}

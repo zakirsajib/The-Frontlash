@@ -1,0 +1,46 @@
+.dot2, 
+nav.navbar ul.nav > li > a:before,
+#header_top_left ul > li > a:before{
+  background: #F7522F;
+}
+
+header nav.navbar.navbar-fixed .menu-icon:hover span {
+  background: #F7522F;
+  &:before, &:after {
+    background: #F7522F;
+  }
+}
+
+.dot1, 
+.button-blue:before{
+  background: #F7522F;
+}
+
+.menu-icon span {
+  background: #F7522F;
+  &:before, &:after {
+    background: #F7522F;
+  }
+}
+
+.navbar-default {
+  .navbar-nav > .active > a {
+    color: #579fd7;
+    &:focus, &:hover {
+      color: #579fd7;
+    }
+  }
+  ul li a:hover {
+    color: #579fd7;
+  }
+}
+
+header .scroll-nav .navbar-search-box-icon .active i {
+  color: #579fd7 !important;
+}
+
+.navbar .navbar-search-box-icon .search-icon i {
+  &:hover, &:focus, &:active {
+    color: #F7522F;
+  }
+}

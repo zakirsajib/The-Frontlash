@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Play</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="The-Frontlash" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop_Homepage-1400-Copy" transform="translate(-677.000000, -512.000000)">
+            <g id="Feature_Carousel" transform="translate(0.000000, 250.000000)">
+                <g id="Play" transform="translate(678.000000, 263.000000)">
+                    <circle id="Oval-3" stroke="#FFFFFF" stroke-width="1.5" cx="25" cy="25" r="25"></circle>
+                    <polygon id="Triangle" fill="#FFFFFF" transform="translate(27.500000, 26.000000) rotate(90.000000) translate(-27.500000, -26.000000) " points="27.5 18.5 37.5 33.5 17.5 33.5"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+nav.navbar ul.nav>li {
+        margin:0 1rem
+    }
+
+    #parallax-parent,#parallax-container {
+        height: 450px
+    }
+
+    #parallax-wrapper {
+        top: 250px
+    }

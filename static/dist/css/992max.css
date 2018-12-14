@@ -1,0 +1,55 @@
+h1,.h1 {
+        font-size:2em
+    }
+
+    h2,.h2 {
+        font-size: 2rem
+    }
+
+    h3,.h3 {
+        font-size: 1.5rem
+    }
+
+    h4,.h4 {
+        font-size: 1rem
+    }
+
+    h5,.h5 {
+        font-size: .9375rem
+    }
+
+    h6,.h6 {
+        font-size: .8375rem
+    }
+
+    .top30 {
+        margin-top: 15px
+    }
+
+    .top55 {
+        margin-top: 25px
+    }
+
+    .top100 {
+        margin-top: 50px
+    }
+
+    .top160 {
+        margin-top: 80px
+    }
+
+    .topbottom132 {
+        margin: 66px 0
+    }
+
+    .bottom30 {
+        margin-bottom: 20px
+    }
+
+    header nav.navbar .navbar-fixed .menu-icon span {
+        background: #f7522f
+    }
+
+    header nav.navbar .navbar-fixed .menu-icon span:before,header nav.navbar .navbar-fixed .menu-icon span:after {
+        background: #f7522f
+    }
