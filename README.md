@@ -1,5 +1,4 @@
-
-![alt text](https://github.com/zakirsajib/zakirsajibHTML/blob/master/wp-content/themes/zsonline/assets/images/screenshot.jpg)
+![alt text](https://github.com/zakirsajib/The-Frontlash/blob/master/screenshot.jpg)
 
 == Style Index ==
 
