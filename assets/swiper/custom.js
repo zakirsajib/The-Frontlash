@@ -20,7 +20,7 @@ $(function ($) {
 		  	},
 		  	effect: 'fade',
 		  	grabCursor: true,
-      		autoHeight: true,
+      		autoHeight: false,
 			loop: false
     	})
 	});

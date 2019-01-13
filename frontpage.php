@@ -29,7 +29,7 @@ get_header();
 		//endif;
 		
 		$args = array( 
-			'posts_per_page' => -1, 
+			'posts_per_page' => 50, 
 			'post_type' => 'post',
 			'order'	=> 'DESC',
 			'post__not_in' => get_option("sticky_posts")

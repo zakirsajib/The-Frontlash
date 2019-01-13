@@ -7,9 +7,7 @@
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
 				<?php foreach( $page_gallery as $image ) : ?>
-					<div class="swiper-slide visible-lg desktop-mode"><img class="lazyload" src="<?php echo $image['url']?>" srcset="<?php echo get_template_directory_uri()?>/static/dist/img/loaderPage.svg" data-srcset="<?php echo $image['url']?>" alt="<?php the_title()?>"/></div>
-					<div class="swiper-slide visible-sm tablet-mode"><img class="lazyload" src="<?php echo $image['url']?>" srcset="<?php echo get_template_directory_uri()?>/static/dist/img/loaderPage.svg" data-srcset="<?php echo $image['url']?>" alt="<?php the_title()?>"/></div>
-					<div class="swiper-slide visible-xs mobile-mode"><img class="lazyload" src="<?php echo $image['url']?>" srcset="<?php echo get_template_directory_uri()?>/static/dist/img/loaderPageMobile.svg" data-srcset="<?php echo $image['url']?>" alt="<?php the_title()?>"/></div>
+					<div class="swiper-slide"><img class="lazyload" src="<?php echo $image['url']?>" srcset="<?php echo get_template_directory_uri()?>/static/dist/img/loaderPage.svg" data-srcset="<?php echo $image['url']?>" alt="<?php the_title()?>"/></div>
 				<?php endforeach;?>
 			</div>	
 			<?php if( count($page_gallery) > 1):?>

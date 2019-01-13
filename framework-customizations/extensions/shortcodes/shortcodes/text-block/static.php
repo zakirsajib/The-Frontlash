@@ -57,7 +57,13 @@ if(!function_exists('frontlash_shortcode_text_block_css')) :
 						font-weight: <?php echo esc_attr( $atts['text_weight'] ); ?>;
 					<?php endif;?>
 				}
-				#text-block-<?php echo esc_attr( $atts['id'] ); ?> a{color:inherit;border-bottom-width:2px;border-bottom-color:inherit;border-bottom-style:solid;line-height:2}
+				#text-block-<?php echo esc_attr( $atts['id'] ); ?> a{
+					color:inherit;
+					border-bottom-width:2px;
+					border-bottom-style:solid;
+					line-height:2;
+					transition: all 100ms cubic-bezier(0.4, 0, 0.2, 1);
+				}
 			<?php endif;
 			if( ( isset($atts['line_height']) && $atts['line_height'] ) ) : ?>
 				#text-block-<?php echo esc_attr( $atts['id'] ); ?> li{

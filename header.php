@@ -17,8 +17,7 @@
 	<meta name="environment" content="staging">
 	<meta name="application-name" content="thefrontlash.com">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<limk rel="dns-prefetch" href="//localhost/frontlash/alison-sudol-on-magic-and-friendship/">
-	<limk rel="dns-prefetch" href="//localhost/frontlash/community-become-a-member/">
+	<link rel="dns-prefetch" href="<?php echo get_site_url()?>"/>
 	
 	<?php if( is_home() || is_front_page() || is_404() || is_page() || is_search() ):
 		$home_background_color = fw_get_db_settings_option('home_background_color');

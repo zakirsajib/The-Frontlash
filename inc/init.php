@@ -394,6 +394,7 @@ function frontlash_add_custom_columns( $columns ) {
         'cb' => '<input type="checkbox" />',
         'title' => 'Title',
         'featured_thumb' => 'Thumbnail',
+        'img_orientation' => 'Image Orientation',
         'author' => 'Author',
         'the_modified_author'	=> 'Last modified',
         'categories' => 'Categories',
@@ -411,6 +412,9 @@ function frontlash_add_thumbnail_columns_data( $column, $post_id ) {
         echo the_post_thumbnail( 'admin-list-thumb' );
         echo '</a>';
         break;
+    case 'img_orientation':
+    	echo fw_get_db_post_option(get_the_id(), 'post-image-orientation');
+    	break;
     }
 }
 add_image_size( 'admin-list-thumb', 80, 80, false );
@@ -424,6 +428,32 @@ function frontlash_add_modified_author_columns_data($column, $post_id){
         break;
     }
 }
+
+add_action ('wp_head', function(){
+	$sticky = get_option( 'sticky_posts' );
+	rsort( $sticky );
+	$sticky = array_slice( $sticky, 0, 1 );?>
+	<link rel="dns-prefetch" href="<?php the_permalink($sticky[0])?>" crossorigin />
+	<link rel="prefetch" href="<?php the_permalink($sticky[0])?>" crossorigin />
+	<link rel="preconnect" href="<?php the_permalink($sticky[0])?>" crossorigin />
+	
+	<link rel="dns-prefetch" href="<?php echo get_site_url()?>/community-become-a-member" crossorigin />
+	<link rel="prefetch" href="<?php echo get_site_url()?>/community-become-a-member" crossorigin />
+	<link rel="preconnect" href="<?php echo get_site_url()?>/community-become-a-member" crossorigin />
+	
+	<link rel="dns-prefetch" href="<?php echo get_site_url()?>/category/cash-all-the-deals" crossorigin />
+	<link rel="prefetch" href="<?php echo get_site_url()?>/category/cash-all-the-deals" crossorigin />
+	<link rel="preconnect" href="<?php echo get_site_url()?>/category/cash-all-the-deals" crossorigin />
+	
+	<link rel="dns-prefetch" href="<?php echo get_site_url()?>/category/progress-a-new-way" crossorigin />
+	<link rel="prefetch" href="<?php echo get_site_url()?>/category/progress-a-new-way" crossorigin />
+	<link rel="preconnect" href="<?php echo get_site_url()?>/category/progress-a-new-way" crossorigin />
+	
+	<link rel="dns-prefetch" href="<?php echo get_site_url()?>/category/fashion-get-inspired" crossorigin />
+	<link rel="prefetch" href="<?php echo get_site_url()?>/category/fashion-get-inspired" crossorigin />
+	<link rel="preconnect" href="<?php echo get_site_url()?>/category/fashion-get-inspired" crossorigin />
+<?php });
+
 
 /**
  * Register widget area.
@@ -1014,7 +1044,7 @@ function _action_theme_register_required_plugins() {
 		),
 		array(
 			'name'      => 'Async JavaScript',
-			'slug'      => 'async-javaScript',
+			'slug'      => 'async-javascript',
 			'required'  => true,
 			'force_activation'   => true,
 		),
@@ -1024,12 +1054,7 @@ function _action_theme_register_required_plugins() {
 			'required'  => true,
 			'force_activation'   => true,
 		),
-		array(
-			'name'      => 'Jetpack by WordPress.com',
-			'slug'      => 'jetpack',
-			'required'  => true,
-			'force_activation'   => true,
-		),
+		
 	//	array(
 	//		'name'      => 'Autoptimize',
 	//		'slug'      => 'autoptimize',
