@@ -26,13 +26,13 @@ To populate values and brands, go to:
 Appearance -> Theme Settings -> Style Index.
 Click Add button to add.
 
-## Fonts ==
+## Fonts
 
 To use either Google or Frontlash's own fonts, go to:
 
 Appearance -> Theme Settings -> Styling.
 
-## Installation ==
+## Installation
 
 1. In your admin panel, go to Appearance > Themes and click the Add New button.
 2. Click Upload Theme and Choose File, then select the theme's .zip file. Click Install Now.
@@ -54,11 +54,11 @@ Appearance -> Theme Settings -> Styling.
 ![alt text](https://github.com/zakirsajib/The-Frontlash/blob/master/assets/screenshots/FireShot%20Capture%20100%20-%20Theme%20Settings%20%E2%80%B9%20The%20Front_%20-%20http___localhost_frontlash_wp-admin__themes.php.jpg)
 
 
-## Changelog ==
+## Changelog
 
 * Initial release
 
-## Credits ==
+## Credits
 
 * Based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * normalize.css https://necolas.github.io/normalize.css/, (C) 2012-2016 Nicolas Gallagher and Jonathan Neal, [MIT](https://opensource.org/licenses/MIT)
