@@ -5,26 +5,24 @@
 * Tested up to: 5.0.2
 * Stable tag: 1.0.0
 * License: GNU General Public License v2 or later
-* License URI: LICENSE
 
 ## Descriptions
-A starter theme called FrontLash.
+A starter theme underscores is used to developed this WordPress theme called FrontLash.
 
 ## Style Index
-Style Index has Two shortcodes.
+#### Style Index has Two shortcodes.
 
 1. Shortcode is for Values/Category
 2. Shortcode is for Brands
 
-The shortcodes are used in style index page. They are following format:
+#### The shortcodes are used in style index page. They are following format:
 
 For Values use: `[frontlashstyleindex]`
 For Brands use: `[frontlashstyleindexresults]`
 
-To populate values and brands, go to:
+#### To populate values and brands, go to:
 
-Appearance -> Theme Settings -> Style Index.
-Click Add button to add.
+Appearance -> Theme Settings -> Style Index. Click Add button to add.
 
 ## Fonts
 
@@ -42,8 +40,8 @@ Appearance -> Theme Settings -> Styling.
 
 #### Does this theme support any required plugins?
 
-* FrontLash includes support for Infinite Scroll in Jetpack.
-* Unyson.
+* FrontLash includes support for Infinite Scroll in Jetpack
+* Unyson
 * Instagram Feed
 * Advanced Custom Fields
 * Ninja Forms
