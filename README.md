@@ -1,5 +1,3 @@
-![alt text](https://github.com/zakirsajib/The-Frontlash/blob/master/screenshot.jpg)
-
 # FrontLash
 * Contributors: Zakir Sajib
 * Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments
@@ -49,6 +47,11 @@ Appearance -> Theme Settings -> Styling.
 * Instagram Feed
 * Advanced Custom Fields
 * Ninja Forms
+
+## Screenshots
+![alt text](https://github.com/zakirsajib/The-Frontlash/blob/master/assets/screenshots/FireShot%20Capture%20104%20-%20%20-%20https___www.thefrontlash.com_.jpg)
+![alt text](https://github.com/zakirsajib/The-Frontlash/blob/master/assets/screenshots/FireShot%20Capture%20101%20-%20Theme%20Settings%20%E2%80%B9%20The%20Front_%20-%20http___localhost_frontlash_wp-admin__themes.php.jpg)
+![alt text](https://github.com/zakirsajib/The-Frontlash/blob/master/assets/screenshots/FireShot%20Capture%20100%20-%20Theme%20Settings%20%E2%80%B9%20The%20Front_%20-%20http___localhost_frontlash_wp-admin__themes.php.jpg)
 
 
 ## Changelog ==
