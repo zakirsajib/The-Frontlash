@@ -10,15 +10,15 @@
 A starter theme underscores is used to developed this WordPress theme called FrontLash.
 
 ## Style Index
-#### Style Index has Two shortcodes.
+#### Style Index has two shortcodes.
 
 1. Shortcode is for Values/Category
 2. Shortcode is for Brands
 
 #### The shortcodes are used in style index page. They are following format:
 
-For Values use: `[frontlashstyleindex]`
-For Brands use: `[frontlashstyleindexresults]`
+1. For Values use: `[frontlashstyleindex]`
+2. For Brands use: `[frontlashstyleindexresults]`
 
 #### To populate values and brands, go to:
 
