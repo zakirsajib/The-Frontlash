@@ -50,6 +50,8 @@ Appearance -> Theme Settings -> Styling.
 ![alt text](https://github.com/zakirsajib/The-Frontlash/blob/master/assets/screenshots/FireShot%20Capture%20104%20-%20%20-%20https___www.thefrontlash.com_.jpg)
 ![alt text](https://github.com/zakirsajib/The-Frontlash/blob/master/assets/screenshots/FireShot%20Capture%20101%20-%20Theme%20Settings%20%E2%80%B9%20The%20Front_%20-%20http___localhost_frontlash_wp-admin__themes.php.jpg)
 ![alt text](https://github.com/zakirsajib/The-Frontlash/blob/master/assets/screenshots/FireShot%20Capture%20100%20-%20Theme%20Settings%20%E2%80%B9%20The%20Front_%20-%20http___localhost_frontlash_wp-admin__themes.php.jpg)
+![alt text](https://github.com/zakirsajib/The-Frontlash/blob/master/assets/screenshots/FireShot%20Capture%20105%20-%20Theme%20Settings%20%E2%80%B9%20The%20Front_%20-%20http___localhost_frontlash_wp-admin__themes.php.jpg)
+![alt text](https://github.com/zakirsajib/The-Frontlash/blob/master/assets/screenshots/FireShot%20Capture%20106%20-%20Edit%20Post%20%E2%80%B9%20The%20Frontlash%20%E2%80%94%20W_%20-%20http___localhost_frontlash_wp-admin_post.php.jpg)
 ![alt text](https://github.com/zakirsajib/The-Frontlash/blob/master/assets/screenshots/Screen%20Shot%20202.jpg)
 
 
